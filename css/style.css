@@ -357,7 +357,7 @@ section.galeria.flex-container {
     text-transform: uppercase;
     text-decoration: underline;
     text-align: center;
-    color: rgb(225, 133, 133);
+    color: white;
     font-family: 'Francois One', sans-serif;
     font-size: 27px;
     text-align: center;
@@ -754,7 +754,7 @@ span {
 
 /**********ANIMACIONES*********/
 .header h2{
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-name: slidein;
   }
   
@@ -769,3 +769,15 @@ span {
       width: 100%;
     }
   }
+
+  .imageGaleria, .grid>article{
+    transition: ease-in .4s;
+}
+
+.imageGaleria:hover {
+    transform: scale(1.2);
+}
+
+.grid>article:hover{
+    transform: scale(0.9);
+}
