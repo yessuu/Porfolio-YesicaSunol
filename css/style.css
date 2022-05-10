@@ -5,6 +5,9 @@
 
 body {
     overflow-x: hidden;
+
+    background: linear-gradient(90deg, rgba(3,2,19,0.9612438725490196) 0%, rgba(89,19,202,1) 0%, rgb(54 53 50) 100%);
+
 }
 
 /* regla para usar una font descargada a la pc */
@@ -24,6 +27,7 @@ body {
 
 .pink {
     border: 5px solid rgb(225, 133, 133);
+    background: #f0fffc;
 }
 
 /* NAVEGACION */
@@ -334,7 +338,7 @@ section.galeria.flex-container {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    width: 70%;
+    width: 80%;
 
 }
 
@@ -393,8 +397,8 @@ section.fold_articles_blog,
 .grid {
     padding: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 38px;
     align-items: stretch;
 }
 
@@ -433,7 +437,7 @@ section.formulario {
 }
 
 .form_contacto {
-    width: 100%;
+    width: 80%;
     padding: 2rem;
     background: #fff;
     box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04),
@@ -725,7 +729,7 @@ span {
 
 @media screen and (min-width: 768px) {
     .form_contacto {
-        width: 55%;
+        width: 40%;
     }
 
     .nav__toggle {
