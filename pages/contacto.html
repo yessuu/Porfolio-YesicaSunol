@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <title>Yesica Suñol</title>
+</head>
+
+<body>
+  <header>
+
+    <body>
+      <section class="header">
+        <h2>Yesica Suñol</h2>
+        <nav class="header__nav">
+          <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+          <label for="nav__checkbox" class="nav__toggle">
+            <img src="https://img.icons8.com/material-outlined/30/000000/menu--v1.png" class="hamburger" />
+            <img src="https://img.icons8.com/plumpy/30/000000/x.png" class="close" />
+          </label>
+          <ul class="nav__menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./sobremi.html">Sobre Mi</a></li>
+            <li><a href="./proyectos.html">Proyectos</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </section>
+  </header>
+  <h1 class="title_contacto">Contacto</h1>
+  <span class="bk_texto green">
+    <h4> ¿Quieres trabajar juntos o tienes alguna pregunta? </h4>
+    <p>Comunicate a travez de nuestro formulario o contáctanos en redes sociales </p>
+  </span>
+
+  <section class="formulario">
+    <div class="form_contacto">
+      <h2>Contactanos</h2>
+      <form action="" method="POST">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" name="Name" id="name" placeholder="Tu Nombre" required minlength="3" maxlength="25" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Celular</label>
+          <input type="tel" name="phone" id="phone" placeholder="+598 " required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="Email" id="email" placeholder="email@dominio.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea name="Message" id="message" rows="5" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="submit"><i class="far fa-paper-plane"></i>Enviar</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="bk_contacto pink">
+      <span class="icono_hand"><i class="far fa-hand-peace"></i></span>
+      <p>Di hola directo a <br>
+        <strong>WHATSAPP</strong><span class="icon_whats"><i class="fab fa-whatsapp"></i></span>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <span>Yesica Suñol</span>
+    <div class="social-menu">
+      <ul>
+        <li><a href="#" target="blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="#" target="blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
