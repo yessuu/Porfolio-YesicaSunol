@@ -6,7 +6,7 @@
 body {
     overflow-x: hidden;
 
-    background:#1f2023;
+    background: #1f2023;
 
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .pink {
-    border: 5px solid rgb(225, 133, 133);
+    border: 5px solid #e0ff00;
     background: #f0fffc;
 }
 
@@ -173,7 +173,7 @@ li:first-child {
 
 a.btnBlog,
 a.btn {
-    color: #fff;
+    color: white;
     padding: 10px 8px;
     height: auto;
     text-decoration: none;
@@ -183,13 +183,14 @@ a.btn {
 }
 
 .btnBlog {
-    background: #69cebb;
-    border: 2px solid #69cebb;
+    color: black !important;
+    background: #e0ff00;
+    border: 2px solid black
 }
 
 .btn {
-    background: rgb(225, 133, 133);
-    border: 2px solid rgb(225, 133, 133);
+    background: black;
+    border: 2px solid #e0ff00;
 }
 
 .btn:hover {
@@ -204,8 +205,8 @@ a.btn {
 
 /********************ITEM DOS**********************/
 .fold_2 {
-    background: rgb(234,144,255);
-    background: linear-gradient(90deg, rgba(234,144,255,1) 0%, rgba(224,255,0,1) 100%);
+    background: rgb(234, 144, 255);
+    background: linear-gradient(90deg, rgba(234, 144, 255, 1) 0%, rgba(224, 255, 0, 1) 100%);
     padding: 5px;
     font-weight: 400;
     font-size: 1em;
@@ -213,6 +214,7 @@ a.btn {
     display: flex;
     justify-content: center;
 }
+
 .fold_image {
     border-radius: 100%;
     border: dashed;
@@ -221,6 +223,7 @@ a.btn {
     width: 347px;
     margin: 30px;
 }
+
 section.galeria.flex-container {
     display: flex;
     justify-content: center;
@@ -271,7 +274,7 @@ section.galeria.flex-container {
     letter-spacing: 4px;
     text-transform: uppercase;
     text-decoration: underline;
-    color: rgb(225, 133, 133);
+    color: white;
     font-family: 'Francois One', sans-serif;
     font-size: 27px;
     text-align: center;
@@ -299,16 +302,15 @@ section.galeria.flex-container {
 
 .card_contenido {
     margin-bottom: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 5px 5px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 5px 10px rgb(0 0 0 / 19%), 0 5px 5px rgb(0 0 0 / 23%);
     border-radius: 5px;
     width: auto;
     padding: 10px 10px 10px 10px;
-    background: #ffcaef;
-
+    background: #ea90ff;
 }
 
 .card_contenido a {
-    color: #2a645a;
+    color: white;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -324,13 +326,13 @@ section.galeria.flex-container {
 .cta {
     font-size: 12px;
     text-decoration: none;
-    color: #69cebb;
+    color: white;
     font-weight: 900;
 }
 
 .cta:hover {
-    color: rgb(225, 133, 133);
-    border: 3px dashed #69cebb;
+    color: #e0ff00;
+    border: 3px dashed #e0ff00;
     border-radius: 3px;
     padding: 4px 12px 5px 12px;
 }
@@ -368,8 +370,8 @@ section.galeria.flex-container {
 }
 
 .fold_skills .skill {
-    border: 2px solid rgb(225, 133, 133);
-    background: #69cebcb5;
+    border: 2px solid #e0ff00;
+    background: rgb(18 17 19);
     margin-top: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -405,10 +407,9 @@ section.fold_articles_blog,
 }
 
 .grid>article {
-    border: 2px solid rgb(183, 206, 55);
-    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border: 4px solid #e0ff00;
+    box-shadow: 2px 2px 6px 0px rgba(224, 241, 33, 0.807);
     background: aliceblue;
-
 }
 
 .grid>article img {
@@ -460,8 +461,7 @@ form,
 input,
 textarea,
 button {
-    border-top: 5px solid #69cebb;
-    ;
+    border-top: 5px solid #e0ff00;
     font-family: 'Francois One', sans-serif;
     font-size: 12px;
 }
@@ -497,7 +497,7 @@ button {
     margin-top: 1rem;
     padding: 0.7rem 2rem;
     border: none;
-    background: #69cebb;
+    background: #ea90ffa6;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -527,7 +527,6 @@ i {
 
 .bk_texto {
     font-family: 'Francois One', sans-serif;
-    color: rgb(225, 133, 133);
     text-align: center;
 }
 
@@ -575,7 +574,7 @@ span {
     font-weight: 800;
     text-transform: uppercase;
     font-size: 25px;
-    border: 2px dashed #69cebb;
+    border: 2px dashed #e0ff00;
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -650,7 +649,8 @@ span {
         top: -19px;
     }
 
-    .fold_1 h1,  h4,
+    .fold_1 h1,
+    h4,
     .title_skills,
     .title_proyectos,
     .title_about,
@@ -661,9 +661,11 @@ span {
         padding: 9px;
         margin-top: 16px;
     }
-    .fold_proyectos{
-        display:inline-table;
+
+    .fold_proyectos {
+        display: inline-table;
     }
+
     .section.galeria.flex-container,
     .galeria_title {
         margin-top: -14px;
@@ -749,3 +751,21 @@ span {
         display: block;
     }
 }
+
+/**********ANIMACIONES*********/
+.header h2{
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
