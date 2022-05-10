@@ -6,7 +6,7 @@
 body {
     overflow-x: hidden;
 
-    background: linear-gradient(90deg, rgba(3,2,19,0.9612438725490196) 0%, rgba(89,19,202,1) 0%, rgb(54 53 50) 100%);
+    background:#1f2023;
 
 }
 
@@ -43,21 +43,24 @@ body {
     text-align: center;
     padding: 30px;
     font-family: 'Francois One', sans-serif;
+    background: #ea90ff;
+    color: rgb(255, 255, 255);
 }
 
 .header__nav {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    background: rgb(225, 133, 133);
-    box-shadow: 0px 5px 0px #ff85da;
+    background: #ea90ffa6;
+    box-shadow: 0px 5px 0px #e0ff00;
 }
+
 
 .header__nav ul li a {
     font-family: 'Francois One', sans-serif;
     display: block;
     padding: 5px;
     text-decoration: none;
-    color: rgb(255, 208, 208);
+    color: #f0fffc;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -201,24 +204,23 @@ a.btn {
 
 /********************ITEM DOS**********************/
 .fold_2 {
-    background: #ffd4cd;
+    background: rgb(234,144,255);
+    background: linear-gradient(90deg, rgba(234,144,255,1) 0%, rgba(224,255,0,1) 100%);
     padding: 5px;
     font-weight: 400;
     font-size: 1em;
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
-
 .fold_image {
-    width: 513;
     border-radius: 100%;
     border: dashed;
     color: #69cebb;
     padding: 4px;
-    width: 470px;
+    width: 347px;
     margin: 30px;
-    margin-left: -16px;
 }
-
 section.galeria.flex-container {
     display: flex;
     justify-content: center;
@@ -238,7 +240,7 @@ section.galeria.flex-container {
     letter-spacing: 4px;
     text-transform: uppercase;
     text-decoration: underline;
-    color: rgb(225, 133, 133);
+    color: #fff;
     font-family: 'Francois One', sans-serif;
 }
 
@@ -254,11 +256,11 @@ section.galeria.flex-container {
     width: 250px;
     margin: 5px;
     padding: 11px;
-    background: #ffd4cd;
+    background: #e0ff00;
 }
 
 .imageGaleria:hover {
-    background: #69cebb;
+    background: rgb(225, 133, 133);
 }
 
 /************PROYECTOS*****************/
@@ -403,8 +405,10 @@ section.fold_articles_blog,
 }
 
 .grid>article {
-    border: 1px solid #ccc;
+    border: 2px solid rgb(183, 206, 55);
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    background: aliceblue;
+
 }
 
 .grid>article img {
@@ -415,6 +419,7 @@ section.fold_articles_blog,
     font-family: 'Francois One', sans-serif;
     padding: 20px;
     height: 160px;
+    background: aliceblue;
 }
 
 .grid a.btn.btn-block {
@@ -542,7 +547,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: rgb(225, 133, 133);
+    background: #ea90ffa6;
     align-items: center;
     height: 63px;
 }
