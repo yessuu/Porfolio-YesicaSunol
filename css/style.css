@@ -30,7 +30,7 @@ body {
 }
 
 /* NAVEGACION */
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+ h2, .h2, h1, .h1 {
     margin-top: 0;
     margin-bottom: 0 !important;
     font-weight: 500;
@@ -176,13 +176,12 @@ li:first-child {
 }
 
 a.btnBlog,
-a.btn {
+a.btn_proyectos{
     color: white;
     padding: 10px 8px;
     height: auto;
     text-decoration: none;
     width: auto;
-    height: 100px;
     border-radius: 5px;
 }
 
@@ -192,19 +191,21 @@ a.btn {
     border: 2px solid black
 }
 
-.btn {
+a.btn_proyectos{
     background: black;
     border: 2px solid #e0ff00;
 }
 
-.btn:hover {
-    background: #69cebb;
-    color: rgb(225, 133, 133);
+a.btn_proyectos:hover {
+    color: black !important;
+    background: #e0ff00;
+    border: 2px solid black !important;
 }
 
 .btnBlog:hover {
-    background: rgb(225, 133, 133);
-    color: #69cebb;
+    color: white !important;
+    background: black; 
+    border: 2px solid #e0ff00;
 }
 
 /********************ITEM DOS**********************/
