@@ -5,8 +5,7 @@
 
 body {
     overflow-x: hidden;
-
-    background: #1f2023;
+    background: #1f2023 !important;
 
 }
 
@@ -31,7 +30,12 @@ body {
 }
 
 /* NAVEGACION */
-
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    font-weight: 500;
+    line-height: 1.2;
+}
 .header {
     display: flex;
     justify-content: center;
@@ -552,37 +556,17 @@ footer {
 }
 
 span {
-    font-size: 13px;
+    margin-bottom: 9px;
+    font-size: 15px;
     color: rgb(243, 243, 243);
 }
 
-.social-menu ul {
-    list-style: none;
-    text-align: center;
-    display: block;
+.icon {
+    color: white;
 }
-
-.social-menu ul li {
-    display: inline-block;
+.icon:hover{
+    color:#e0ff00;
 }
-
-.social-menu ul li a {
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 25px;
-    border: 2px dashed #e0ff00;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: rgb(255, 206, 206);
-    margin-left: 5px;
-}
-
-
 /******MEDIAS Queries******/
 /***TABLET***/
 @media screen and (max-width:1024px) {
