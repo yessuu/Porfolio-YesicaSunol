@@ -292,7 +292,7 @@ section.galeria.flex-container {
 .fold_proyectos {
     height: 100%;
     margin: 0px 0px 60px 0px;
-    width: 70%;
+    width: 100%;
 }
 
 .fold_articles {
@@ -353,7 +353,7 @@ section.galeria.flex-container {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -655,7 +655,12 @@ span {
     .fold_proyectos {
         display: inline-table;
     }
-
+    .galeria_proyectos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .section.galeria.flex-container,
     .galeria_title {
         margin-top: -14px;
