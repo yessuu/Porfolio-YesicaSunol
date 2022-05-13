@@ -321,7 +321,11 @@ section.galeria.flex-container {
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
 }
-
+.btn-primary {
+    color: #fff;
+    background-color: #191a1b !important;
+    border-color:#f8fd0d !important;
+}
 .card_articles h1 {
     font-size: 13px;
 }
@@ -766,5 +770,5 @@ span {
 }
 
 .grid>article:hover {
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
