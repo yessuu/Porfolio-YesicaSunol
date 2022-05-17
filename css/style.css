@@ -315,7 +315,12 @@ section.galeria.flex-container {
     padding: 10px 10px 10px 10px;
     background: #ea90ff;
 }
-
+.card {
+    
+    background-color: rgba(255, 255, 255, 0.073) !important;
+    background-clip: border-box;
+    border: none !important;
+}
 .card_contenido a {
     color: white;
     text-decoration: none;
