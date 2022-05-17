@@ -347,6 +347,35 @@ section.galeria.flex-container {
     border-radius: 3px;
     padding: 4px 12px 5px 12px;
 }
+.read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+    color: #191a1b;
+  }
+  
+
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    font-size: 12px;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
+  }
+  
 
 /**************GALERIA PROYECTOS**************/
 .fold_proyectos {
