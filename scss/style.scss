@@ -1,0 +1,572 @@
+@import "parciales/_sobremi.scss";
+@import "parciales/_proyectos.scss";
+@import "parciales/_footer.scss";
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+body {
+    overflow-x: hidden;
+    background: #1f2023 !important;
+
+}
+
+/* regla para usar una font descargada a la pc */
+@font-face {
+    font-family: 'PatrickHand';
+    src: url('../font/PatrickHand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Amstagram';
+    src: url('../assets/font/Amstagram.ttf');
+}
+
+.green {
+    background-color: #69cebb;
+}
+
+.pink {
+    border: 5px solid #e0ff00;
+    background: #f0fffc;
+}
+
+/* NAVEGACION */
+ h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/************PRIMER FOLD*****************/
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.fold {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fold_1 {
+    background: #ffd4cd;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.fold_1 h1 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.fold_parrafo {
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.fold_botones {
+    display: inline-block;
+}
+
+a.btnBlog,
+a.btn_proyectos{
+    color: white;
+    padding: 10px 8px;
+    height: auto;
+    text-decoration: none;
+    width: auto;
+    border-radius: 5px;
+}
+
+.btnBlog {
+    color: black !important;
+    background: #e0ff00;
+    border: 2px solid black
+}
+
+a.btn_proyectos{
+    background: black;
+    border: 2px solid #e0ff00;
+}
+
+a.btn_proyectos:hover {
+    color: black !important;
+    background: #e0ff00;
+    border: 2px solid black !important;
+}
+
+.btnBlog:hover {
+    color: white !important;
+    background: black; 
+    border: 2px solid #e0ff00;
+}
+
+/********************ITEM DOS**********************/
+.fold_2 {
+    background: rgb(234, 144, 255);
+    background: linear-gradient(90deg, rgba(234, 144, 255, 1) 0%, rgba(224, 255, 0, 1) 100%);
+    padding: 5px;
+    font-weight: 400;
+    font-size: 1em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.fold_image {
+    border-radius: 100%;
+    border: dashed;
+    color: #69cebb;
+    padding: 4px;
+    width: 347px;
+    margin: 30px;
+}
+
+section.galeria.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.galeria_title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+}
+
+.galeria_images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageGaleria {
+    margin-top: 23px;
+    width: 250px;
+    margin: 5px;
+    padding: 11px;
+    background: #e0ff00;
+}
+
+.imageGaleria:hover {
+    background: rgb(225, 133, 133);
+}
+
+
+
+/**************BLOG USO GRID**************/
+section.fold_articles_blog {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+section.fold_articles_blog,
+.card_articles {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grid {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 38px;
+    align-items: stretch;
+}
+
+.grid>article {
+    border: 4px solid #e0ff00;
+    box-shadow: 2px 2px 6px 0px rgba(224, 241, 33, 0.807);
+    background: aliceblue;
+}
+
+.grid>article img {
+    max-width: 100%;
+}
+
+.grid .text {
+    font-family: 'Francois One', sans-serif;
+    padding: 20px;
+    height: 160px;
+    background: aliceblue;
+}
+
+.grid a.btn.btn-block {
+    position: relative;
+    top: 46px;
+}
+
+.grid__image {
+    width: 350px;
+    height: 160px;
+}
+
+/*************CONTACTO***************/
+section.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px;
+    align-items: center;
+}
+
+.form_contacto {
+    width: 80%;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04),
+        0 0px 10px rgba(0, 0, 0, 0.05), 0 0px 17.9px rgba(0, 0, 0, 0.06),
+        0 0px 33.4px rgba(0, 0, 0, 0.072), 0 0px 80px rgba(0, 0, 0, 0.1);
+}
+
+.form_contacto h2 {
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    cursor: default;
+}
+
+form,
+input,
+textarea,
+button {
+    border-top: 5px solid #e0ff00;
+    font-family: 'Francois One', sans-serif;
+    font-size: 12px;
+}
+
+.form-group label {
+    display: block;
+    margin: 2rem 0 0.5rem 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 94%;
+    padding: 1rem 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0;
+    transition: border 0.15s;
+    border-radius: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    height: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit {
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0.7rem 2rem;
+    border: none;
+    background: #ea90ffa6;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+i {
+    margin-right: 0.5rem;
+}
+
+.submit:hover {
+    background: rgb(225, 133, 133);
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group textarea:focus {
+    border: 2px solid rgb(225, 133, 133);
+}
+
+.bk_contacto.pink {
+    text-align: center;
+    padding: 50px;
+    border-radius: 50%;
+    font-family: 'Francois One', sans-serif;
+}
+
+.bk_texto {
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+}
+
+.icono_hand {
+    font-size: 30px;
+    color: #69cebb;
+}
+
+.icon_whats {
+    font-size: 16px;
+    color: #69cebb;
+    padding-left: 7px;
+}
+
+/**********FOOTER***********/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #ea90ffa6;
+    align-items: center;
+    height: 63px;
+}
+
+span {
+    margin-bottom: 9px;
+    font-size: 15px;
+    color: rgb(243, 243, 243);
+}
+
+.icon {
+    color: white;
+}
+.icon:hover{
+    color:#e0ff00;
+}
+/******MEDIAS Queries******/
+/***TABLET***/
+@media screen and (max-width:1024px) {
+    .fold_1 h1 {
+        font-size: 20px;
+    }
+
+    .fold_parrafo {
+        font-size: 14px;
+    }
+
+    .fold_image {
+        border-radius: 10px;
+        margin-bottom: -20px;
+        width: 280px;
+        margin-left: 9px;
+        margin-right: 9px;
+        border-radius: 1px;
+        position: relative;
+        top: -19px;
+    }
+
+    .bk_contacto.pink {
+        display: none;
+    }
+}
+
+/**********MOVIL*********/
+@media screen and (max-width: 600px) {
+    .flex-container {}
+
+    .header__nav {
+        width: 100%;
+    }
+
+    .fold {
+        flex-direction: column-reverse;
+    }
+
+
+    .fold_2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fold_1,
+    .fold_2,
+    .flex-container {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .fold_image {
+        margin-bottom: -20px;
+        width: 280px;
+        margin-left: 9px;
+        margin-right: 9px;
+        border-radius: 1px;
+        position: relative;
+        top: -19px;
+    }
+
+    .fold_1 h1,
+    h4,
+    .title_skills,
+    .title_proyectos,
+    .title_about,
+    .title_article,
+    .galeria_title,
+    .title_contacto {
+        font-size: 17px;
+        padding: 9px;
+        margin-top: 16px;
+    }
+
+    .fold_proyectos {
+        display: inline-table;
+    }
+    .galeria_proyectos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section.galeria.flex-container,
+    .galeria_title {
+        margin-top: -14px;
+        margin-bottom: 20px;
+    }
+
+    .fold_parrafo p {
+        font-size: 13px;
+    }
+
+    section.formulario {
+        margin: 16px 0px 16px 0px;
+        padding: 15px;
+
+    }
+
+    .form_contacto {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .form_contacto h2 {
+        font-size: 15px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"] {
+        height: 0px;
+    }
+
+    .title_proyectos,
+    .title_about,
+    .title_article,
+    .title_contacto {
+        font-size: 20px;
+    }
+
+    section.fold-articles {
+        display: none;
+    }
+
+    .skills {
+        width: 100%;
+    }
+
+    .fold_skills {
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    .grid {
+        padding: 19px;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.social-menu ul li a {
+    width: 15px;
+    height: 15px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .form_contacto {
+        width: 40%;
+    }
+
+    .nav__toggle {
+        display: none;
+    }
+
+    .nav__menu {
+        flex-direction: row;
+    }
+
+    .nav__menu li {
+        display: block;
+    }
+}
+
+/**********ANIMACIONES*********/
+.header h2 {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.imageGaleria,
+.grid>article {
+    transition: ease-in .4s;
+}
+
+.imageGaleria:hover {
+    transform: scale(1.1);
+}
+
+.grid>article:hover {
+    transform: scale(1.1);
+}
