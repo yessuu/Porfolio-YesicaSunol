@@ -6,17 +6,23 @@ footer {
     background: #ea90ffa6;
     align-items: center;
     height: 63px;
+
+    span {
+        margin-bottom: 9px;
+        font-size: 15px;
+        color: rgb(243, 243, 243);
+    }
+    
+    .icon {
+        color: white;
+
+         &:hover{
+        color:#e0ff00;
+    }
+
+    }
+
+   
+
 }
 
-span {
-    margin-bottom: 9px;
-    font-size: 15px;
-    color: rgb(243, 243, 243);
-}
-
-.icon {
-    color: white;
-}
-.icon:hover{
-    color:#e0ff00;
-}
