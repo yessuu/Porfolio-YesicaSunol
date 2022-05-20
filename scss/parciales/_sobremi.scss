@@ -1,1 +1,39 @@
+/***********SOBRE MI************/
+.skills {
+    height: 100%;
+    width: 90%;
+    margin-bottom: 60px;
+}
+.progress-bar {
+    background-color: #e0ff00 !important;
+}
+.title_skills {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    padding: 50px;
+}
 
+.fold_skills {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.fold_skills .skill {
+    border: 2px solid #e0ff00;
+    background: black;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.title {
+    font-family: 'Francois One', sans-serif;
+    color: #f0fffc;
+    font-weight: 800;
+    font-size: 14px;
+}
