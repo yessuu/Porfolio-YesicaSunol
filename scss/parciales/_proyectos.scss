@@ -1,0 +1,117 @@
+/************PROYECTOS*****************/
+.title_proyectos,
+.title_about,
+.title_article,
+.title_contacto {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    padding: 50px;
+}
+
+.fold_articles,
+.fold_proyectos {
+    height: 100%;
+    margin: 0px 0px 60px 0px;
+    width: 100%;
+}
+
+.fold_articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_articles {
+    text-align: center;
+    box-shadow: #69cebb;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.card_contenido {
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 19%), 0 5px 5px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    background: #ea90ff;
+}
+.card {
+    
+    background-color: rgba(255, 255, 255, 0.073) !important;
+    background-clip: border-box;
+    border: none !important;
+}
+.card_contenido a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #191a1b !important;
+    border-color:#f8fd0d !important;
+}
+.card_articles h1 {
+    font-size: 13px;
+}
+
+.card_articles p {
+    font-size: 9px;
+}
+
+.cta {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.cta:hover {
+    color: #e0ff00;
+    border: 3px dashed #e0ff00;
+    border-radius: 3px;
+    padding: 4px 12px 5px 12px;
+}
+.read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+    color: #191a1b;
+  }
+  
+
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    font-size: 12px;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
+  }
+  
+
+/**************GALERIA PROYECTOS**************/
+.fold_proyectos {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+
+}
