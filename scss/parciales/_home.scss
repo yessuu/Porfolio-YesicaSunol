@@ -1,0 +1,147 @@
+/************PRIMER FOLD*****************/
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.fold {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fold_1 {
+    background: #ffd4cd;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.fold_1 h1 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.fold_parrafo {
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.fold_botones {
+    display: inline-block;
+}
+
+a.btnBlog,
+a.btn_proyectos{
+    color: white;
+    padding: 10px 8px;
+    height: auto;
+    text-decoration: none;
+    width: auto;
+    border-radius: 5px;
+}
+
+.btnBlog {
+    color: black !important;
+    background: #e0ff00;
+    border: 2px solid black
+}
+
+a.btn_proyectos{
+    background: black;
+    border: 2px solid #e0ff00;
+}
+
+a.btn_proyectos:hover {
+    color: black !important;
+    background: #e0ff00;
+    border: 2px solid black !important;
+}
+
+.btnBlog:hover {
+    color: white !important;
+    background: black; 
+    border: 2px solid #e0ff00;
+}
+
+/********************ITEM DOS**********************/
+.fold_2 {
+    background: rgb(234, 144, 255);
+    background: linear-gradient(90deg, rgba(234, 144, 255, 1) 0%, rgba(224, 255, 0, 1) 100%);
+    padding: 5px;
+    font-weight: 400;
+    font-size: 1em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.fold_image {
+    border-radius: 100%;
+    border: dashed;
+    color: #69cebb;
+    padding: 4px;
+    width: 347px;
+    margin: 30px;
+}
+
+section.galeria.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.galeria_title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+}
+
+.galeria_images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageGaleria {
+    margin-top: 23px;
+    width: 250px;
+    margin: 5px;
+    padding: 11px;
+    background: #e0ff00;
+}
+
+.imageGaleria:hover {
+    background: rgb(225, 133, 133);
+}

@@ -1,0 +1,30 @@
+/**********ANIMACIONES*********/
+.header h2 {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.imageGaleria,
+.grid>article {
+    transition: ease-in .4s;
+}
+
+.imageGaleria:hover {
+    transform: scale(1.1);
+}
+
+.grid>article:hover {
+    transform: scale(1.1);
+}

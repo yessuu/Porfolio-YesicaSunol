@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+body {
+    overflow-x: hidden;
+    background: #1f2023 !important;
+
+}
+
+/* regla para usar una font descargada a la pc */
+@font-face {
+    font-family: 'PatrickHand';
+    src: url('../font/PatrickHand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Amstagram';
+    src: url('../assets/font/Amstagram.ttf');
+}
+
+.green {
+    background-color: #69cebb;
+}
+
+.pink {
+    border: 5px solid #e0ff00;
+    background: #f0fffc;
+}
+
+/* NAVEGACION */
+ h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    font-weight: 500;
+    line-height: 1.2;
+}

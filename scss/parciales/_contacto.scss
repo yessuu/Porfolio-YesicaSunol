@@ -1,0 +1,106 @@
+/*************CONTACTO***************/
+section.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px;
+    align-items: center;
+}
+
+.form_contacto {
+    width: 80%;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04),
+        0 0px 10px rgba(0, 0, 0, 0.05), 0 0px 17.9px rgba(0, 0, 0, 0.06),
+        0 0px 33.4px rgba(0, 0, 0, 0.072), 0 0px 80px rgba(0, 0, 0, 0.1);
+}
+
+.form_contacto h2 {
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    cursor: default;
+}
+
+form,
+input,
+textarea,
+button {
+    border-top: 5px solid #e0ff00;
+    font-family: 'Francois One', sans-serif;
+    font-size: 12px;
+}
+
+.form-group label {
+    display: block;
+    margin: 2rem 0 0.5rem 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 94%;
+    padding: 1rem 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0;
+    transition: border 0.15s;
+    border-radius: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    height: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit {
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0.7rem 2rem;
+    border: none;
+    background: #ea90ffa6;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+i {
+    margin-right: 0.5rem;
+}
+
+.submit:hover {
+    background: rgb(225, 133, 133);
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group textarea:focus {
+    border: 2px solid rgb(225, 133, 133);
+}
+
+.bk_contacto.pink {
+    text-align: center;
+    padding: 50px;
+    border-radius: 50%;
+    font-family: 'Francois One', sans-serif;
+}
+
+.bk_texto {
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+}
+
+.icono_hand {
+    font-size: 30px;
+    color: #69cebb;
+}
+
+.icon_whats {
+    font-size: 16px;
+    color: #69cebb;
+    padding-left: 7px;
+}

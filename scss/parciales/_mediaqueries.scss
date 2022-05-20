@@ -1,0 +1,170 @@
+/******MEDIAS Queries******/
+/***TABLET***/
+@media screen and (max-width:1024px) {
+    .fold_1 h1 {
+        font-size: 20px;
+    }
+
+    .fold_parrafo {
+        font-size: 14px;
+    }
+
+    .fold_image {
+        border-radius: 10px;
+        margin-bottom: -20px;
+        width: 280px;
+        margin-left: 9px;
+        margin-right: 9px;
+        border-radius: 1px;
+        position: relative;
+        top: -19px;
+    }
+
+    .bk_contacto.pink {
+        display: none;
+    }
+}
+
+/**********MOVIL*********/
+@media screen and (max-width: 600px) {
+    .flex-container {}
+
+    .header__nav {
+        width: 100%;
+    }
+
+    .fold {
+        flex-direction: column-reverse;
+    }
+
+
+    .fold_2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fold_1,
+    .fold_2,
+    .flex-container {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .fold_image {
+        margin-bottom: -20px;
+        width: 280px;
+        margin-left: 9px;
+        margin-right: 9px;
+        border-radius: 1px;
+        position: relative;
+        top: -19px;
+    }
+
+    .fold_1 h1,
+    h4,
+    .title_skills,
+    .title_proyectos,
+    .title_about,
+    .title_article,
+    .galeria_title,
+    .title_contacto {
+        font-size: 17px;
+        padding: 9px;
+        margin-top: 16px;
+    }
+
+    .fold_proyectos {
+        display: inline-table;
+    }
+    .galeria_proyectos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section.galeria.flex-container,
+    .galeria_title {
+        margin-top: -14px;
+        margin-bottom: 20px;
+    }
+
+    .fold_parrafo p {
+        font-size: 13px;
+    }
+
+    section.formulario {
+        margin: 16px 0px 16px 0px;
+        padding: 15px;
+
+    }
+
+    .form_contacto {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .form_contacto h2 {
+        font-size: 15px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"] {
+        height: 0px;
+    }
+
+    .title_proyectos,
+    .title_about,
+    .title_article,
+    .title_contacto {
+        font-size: 20px;
+    }
+
+    section.fold-articles {
+        display: none;
+    }
+
+    .skills {
+        width: 100%;
+    }
+
+    .fold_skills {
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    .grid {
+        padding: 19px;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.social-menu ul li a {
+    width: 15px;
+    height: 15px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .form_contacto {
+        width: 40%;
+    }
+
+    .nav__toggle {
+        display: none;
+    }
+
+    .nav__menu {
+        flex-direction: row;
+    }
+
+    .nav__menu li {
+        display: block;
+    }
+}
