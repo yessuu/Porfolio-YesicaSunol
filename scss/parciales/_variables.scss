@@ -1,0 +1,16 @@
+/*creando variables en sass*/
+
+$color-principal:black;
+$color-violet:#ea90ffa6;
+$color-pink:#ea90ff;
+
+.body{
+    background:$color-principal;
+}
+
+.header__nav{
+    background:$color-violet;
+}
+.header h2{
+    background:$color-pink;
+}
