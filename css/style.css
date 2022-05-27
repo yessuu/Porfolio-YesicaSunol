@@ -1,3 +1,21 @@
+body {
+  color: #5b5b5d; }
+
+.violet {
+  background: violet; }
+
+.black {
+  background: black; }
+
+.white {
+  background: white; }
+
+.header__nav {
+  background-color: #ea90ffa6;
+  text-align: center;
+  width: 100%;
+  color: #FFFFFF; }
+
 /*creando variables en sass*/
 .body {
   background: black; }
@@ -313,6 +331,8 @@ section.galeria.flex-container {
 
 /**********MOVIL*********/
 @media screen and (max-width: 600px) {
+  .nav__menu {
+    flex-direction: column !important; }
   .header__nav {
     width: 100%; }
   .fold {

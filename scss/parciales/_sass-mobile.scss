@@ -1,0 +1,35 @@
+$vista: mobile;
+$backgroud:pink;
+
+@if $vista == mobile {
+    $backgroud:#5b5b5d;    
+} @else if $vista == desktop{
+    $backgroud:black;
+}
+body{
+    color:$backgroud;
+}
+
+//each//
+@each $color in violet,black,white{
+    .#{$color}{
+        background:#{$color};
+    }
+}
+
+$estilo_uno: (
+  violet: #ea90ffa6
+);
+$estilo_dos:(
+  centro: center,
+  blanco: #FFFFFF
+);
+
+$merged: map-merge($estilo_uno, $estilo_dos);
+
+.header__nav  {
+  background-color: map-get($merged, violet);
+  text-align: map-get($merged, centro);
+  width: 100%;
+  color: map-get($merged, blanco);
+}

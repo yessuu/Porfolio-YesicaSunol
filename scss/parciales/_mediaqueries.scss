@@ -1,6 +1,7 @@
 /******MEDIAS Queries******/
 /***TABLET***/
 @media screen and (max-width:1024px) {
+
     .fold_1 h1 {
         font-size: 20px;
     }
@@ -27,6 +28,9 @@
 
 /**********MOVIL*********/
 @media screen and (max-width: 600px) {
+    .nav__menu {
+        flex-direction: column !important;
+    }
     .flex-container {}
 
     .header__nav {
