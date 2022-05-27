@@ -1,0 +1,13 @@
+Las keywords son: 
+
+Description 
+
+Title 
+
+Author 
+
+Keywords  
+
+Refresh 
+
+Agregue los títulos correspondientes en cada página y revise que todas las imágenes estuvieran con el alt correcto. 
