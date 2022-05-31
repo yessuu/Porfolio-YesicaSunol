@@ -331,6 +331,8 @@ section.galeria.flex-container {
 
 /**********MOVIL*********/
 @media screen and (max-width: 600px) {
+  section.formulario {
+    padding: 6px !important; }
   .nav__menu {
     flex-direction: column !important; }
   .header__nav {
@@ -436,7 +438,7 @@ section.fold_articles_blog,
   padding-right: 10px; }
 
 .grid {
-  padding: 50px;
+  /*  padding: 50px;*/
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 38px;

@@ -28,6 +28,9 @@
 
 /**********MOVIL*********/
 @media screen and (max-width: 600px) {
+    section.formulario {
+        padding: 6px !important;
+    }
     .nav__menu {
         flex-direction: column !important;
     }
